@@ -10,10 +10,10 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ### 🟢 Semestre Atual
 
-- **[Introdução à Programação de Computadores]**  
-- **[Fundamentos de Redes de Computadores]**  
-- **[Introdução à Segurança da Informação]**  
-- **[Computação em Nuvem]**  
+- **[Introdução à Programação de Computadores]**
+- **[Fundamentos de Redes de Computadores]**
+- **[Introdução à Segurança da Informação]**
+- **[Computação em Nuvem]**
 
 ### 📌 Semestres Anteriores
 
@@ -21,9 +21,9 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ## 💻 Tecnologias e Ferramentas
 
-- **Linguagens:** C  
-- **Frameworks:** NeoVim, Visual Studio Code  
-- **Outros:** Git/GitHub, Linux  
+- **Linguagens:** C
+- **Frameworks:** NeoVim, Visual Studio Code
+- **Outros:** Git/GitHub, Linux
 
 ## 📂 Organização dos Arquivos
 
