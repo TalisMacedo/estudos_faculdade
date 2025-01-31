@@ -1,1 +1,1 @@
-# Estudos da FACULDADES - TalisMacedo
+# Estudos da FACULDADE - TalisMacedo
