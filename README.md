@@ -29,7 +29,7 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ```plaintext
 📂 Estudos-CC-Estacio
- ┣ 📂 Semestre-1
+ ┣ 📂 1. Semestre-1
  ┃ ┣ 📂 1. Introdução-Programação-de-Computadores
  ┃ ┃ ┣ 📝 1. RESUMO - Conceitos de solução estruturada.md
  ┃ ┃ ┣ 📝 2. RESUMO - Processo de programação em linguagem C.md
@@ -65,15 +65,16 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
  ┃ ┃ ┣ 📝 32. RESUMO - Vetores, matrizes e loops.md
  ┃ ┃ ┣ 📝 33. RESUMO - Introdução à manipulação de matrizes com condicionais.md
  ┃ ┃ ┣ 📝 34. RESUMO - Condicionais com matrizes e loops.md
- ┣ 📂 Semestre-2
- ┣ 📂 Semestre-3
- ┣ 📂 Semestre-4
- ┣ 📂 Semestre-5
- ┣ 📂 Semestre-6
- ┣ 📂 Semestre-7
- ┣ 📂 Semestre-8
- ┣ 📂 Projetos
- ┣ 📂 Anotações
- ┣ 📂 Materiais-Extras
+ ┣ 📂 2. Semestre-2
+ ┣ 📂 3. Semestre-3
+ ┣ 📂 4. Semestre-4
+ ┣ 📂 5. Semestre-5
+ ┣ 📂 6. Semestre-6
+ ┣ 📂 7. Semestre-7
+ ┣ 📂 8. Semestre-8
+ ┣ 📂 9. Projetos
+ ┣ 📂 10. Anotações
+ ┣ 📂 11. Materiais-Extras
  ┗ 📄 README.md
+```
 
