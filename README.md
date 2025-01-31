@@ -21,9 +21,9 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ## 💻 Tecnologias e Ferramentas
 
-- **Linguagens:** C  
-- **Editores:** NeoVim, Visual Studio Code  
-- **Outros:** Git/GitHub, Linux  
+- **Linguagens:** C
+- **Editores:** NeoVim, Visual Studio Code
+- **Outros:** Git/GitHub, Linux
 
 ## 📂 Organização dos Arquivos
 
@@ -41,6 +41,24 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
  ┃ ┃ ┣ 📝 RESUMO - Tipos de dados.md
  ┃ ┃ ┣ 📝 RESUMO - Modificadores de tipos de dados.md
  ┃ ┃ ┣ 📝 RESUMO - Operadores relacionais.md
+ ┃ ┃ ┣ 📝 RESUMO - Introdução às estruturas de decisão.md
+ ┃ ┃ ┣ 📝 RESUMO - Estruturas de decisão simples.md
+ ┃ ┃ ┣ 📝 RESUMO - Estruturas de decisão composta.md
+ ┃ ┃ ┣ 📝 RESUMO - Operadores lógicos.md
+ ┃ ┃ ┣ 📝 RESUMO - Estruturas de decisão encadeadas.md
+ ┃ ┃ ┣ 📝 RESUMO - Estruturas de decisão aninhadas.md
+ ┃ ┃ ┣ 📝 RESUMO - Uso do switch.md
+ ┃ ┃ ┣ 📝 RESUMO - Menus interativos.md
+ ┃ ┃ ┣ 📝 RESUMO - Operador ternário.md
+ ┃ ┃ ┣ 📝 RESUMO - Integração de estruturas de decisão.md
+ ┃ ┃ ┣ 📝 RESUMO - Introdução às estruturas de repetição (loops).md
+ ┃ ┃ ┣ 📝 RESUMO - Estrutura de repetição while.md
+ ┃ ┃ ┣ 📝 RESUMO - Estrutura de repetição do-while.md
+ ┃ ┃ ┣ 📝 RESUMO - Estrutura de repetição for.md
+ ┃ ┃ ┣ 📝 RESUMO - Introdução aos loops aninhados.md
+ ┃ ┃ ┣ 📝 RESUMO - Entendendo loops aninhados.md
+ ┃ ┃ ┣ 📝 RESUMO - Formas avançadas de declarar loops.md
+ ┃ ┃ ┣ 📝 RESUMO - Recursividade.md
  ┃ ┣ 📂 Fundamentos-de-Redes-de-Computadores
  ┃ ┣ 📂 Introdução-à-Segurança-da-Informação
  ┃ ┣ 📂 Computação-em-Nuvem
@@ -51,4 +69,4 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
  ┣ 📂 Anotações
  ┣ 📂 Materiais-Extras
  ┗ 📄 README.md
-
+```
