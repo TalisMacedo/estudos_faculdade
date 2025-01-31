@@ -69,15 +69,15 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 ┃ ┣━━📂 3. Introdução-à-Segurança-da-Informação
 ┃ ┗━━📂 4. Computação-em-Nuvem
 ┃
-┣━📂2. Semestre-2
-┣━📂3. Semestre-3
-┣━📂4. Semestre-4
-┣━📂5. Semestre-5
-┣━📂6. Semestre-6
-┣━📂7. Semestre-7
-┣━📂8. Semestre-8
-┣━📂9. Projetos
-┣━📂10. Anotações
-┗━📂11. Materiais-Extras
+┣━📂 2. Semestre-2
+┣━📂 3. Semestre-3
+┣━📂 4. Semestre-4
+┣━📂 5. Semestre-5
+┣━📂 6. Semestre-6
+┣━📂 7. Semestre-7
+┣━📂 8. Semestre-8
+┣━📂 9. Projetos
+┣━📂 10. Anotações
+┗━📂 11. Materiais-Extras
 📄 README.md
 ```
