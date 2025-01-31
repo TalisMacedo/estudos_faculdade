@@ -10,38 +10,31 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ### 🟢 Semestre Atual
 
-- **[Introdução à Programação de Computadores]**&#x20;
-- **[Fundamentos de Redes de Computadores]**&#x20;
-- **[Introdução à Segurança da Informação]**&#x20;
-- **[Computação em Nuvem]**&#x20;
+- **[Introdução à Programação de Computadores]**  
+- **[Fundamentos de Redes de Computadores]**  
+- **[Introdução à Segurança da Informação]**  
+- **[Computação em Nuvem]**  
 
 ### 📌 Semestres Anteriores
 
--
--
--
+- *(Adicionar disciplinas conforme avança no curso)*
 
 ## 💻 Tecnologias e Ferramentas
 
-- **Linguagens:** C
-- **Frameworks:** NeoVim, Visual Studio Code
-- **Outros:** Git/GitHub, Linux
+- **Linguagens:** C  
+- **Frameworks:** NeoVim, Visual Studio Code  
+- **Outros:** Git/GitHub, Linux  
 
 ## 📂 Organização dos Arquivos
 
 ```plaintext
 📂 Estudos-CC-Estacio
  ┣ 📂 Semestre-1
- ┃ ┣ 📂 Algoritmos
- ┃ ┣ 📂 Introdução-Programação
- ┃ ┣ ...
- ┣ 📂 Semestre-2
- ┃ ┣ 📂 Estruturas-Dados
- ┃ ┣ 📂 Banco-Dados
- ┃ ┣ ...
+ ┃ ┣ 📂 Introdução-Programação-de-Computadores
+ ┃ ┣ 📂 Fundamentos-de-Redes-de-Computadores
+ ┃ ┣ 📂 Introdução-à-Segurança-da-Informação
+ ┃ ┣ 📂 Computação-em-Nuvem
  ┣ 📂 Projetos
  ┣ 📂 Anotações
  ┣ 📂 Materiais-Extras
  ┗ README.md
-```
-
