@@ -1,0 +1,86 @@
+# Introdução a Git e GitHub - Curso do canal [Téo Me Why](https://www.youtube.com/@teomewhy)
+
+[Introdução ao Git e Github - INSTALAÇÃO e PRIMEIROS CONCEITOS](https://youtu.be/84FhNXNWoig?si=Mw4LlYU-IZlUZqLi)
+
+[Introdução ao Git e GitHub - PRIMEIROS COMANDOS](https://www.youtube.com/watch?v=RZ0g18hstwQ)
+
+[Introdução ao Git e GitHub - BRANCHES](https://www.youtube.com/watch?v=pzjdEQOmsLA)
+
+[Introdução ao Git e GitHub - RESOLVENDO CONFLITOS](https://www.youtube.com/watch?v=IRmjluONHxU)
+
+[Introdução ao Git e GitHub - PULL REQUEST](https://www.youtube.com/watch?v=Y_fFZjzw-D4)
+
+[Introdução ao Git e GitHub - CRIANDO FORK](https://www.youtube.com/watch?v=vWtrTmjis2w)
+
+[Introdução ao Git e GitHub - INTEGRAÇÃO VSCODE](https://www.youtube.com/watch?v=M-mBmYj7Jh4)
+
+[Introdução ao Git e GitHub - GIT FLOW](https://www.youtube.com/watch?v=l44uGe-sxgM)
+
+
+[Site: Téo Me Why](https://teomewhy.org)
+
+Uma iniciativa de educação gratuita para a área de dados e tecnologia. Aprenda sobre Dados, Programação Python e SQL, Estatística, Machine Learning, Databricks e muito mais.
+
+
+
+**O que é o Git?**
+Git é um software para gerenciamento de versao para arquivos de texto no computador.
+Criado por Linus Torvalds para melhorar o trabalho colaborativo em torno do Kernel do Linux.
+É open-source e pode ser instalado em qualqer Sistema Operacional.
+
+Instalando Git no Linux (Ubuntu)!
+sudo apt install git
+
+```
+ **Comandos:**
+ git config --global user.name "nome de usuario"
+ git config --global user.email "email do usuario"
+ git init .                        -> cria novo repositório git
+ git status                        -> mostra o status da branch atual
+ git add <nome do arquivo>         -> manda arquivo para stage
+ git commit -m "minha mensagem"    -> consolida o checkpoint "commit"
+ git log                           -> exibe historico de commits
+ git add .                         -> (cuidado)adiciona tudo para commit
+ git reset <nome do arquivo>       -> retorna para unstage (na faze de stage)
+ git reset idCommit                -> retorna para pos-commit
+ git diff <nome do arquivo>        -> mostra o que foi alterado no arquivo
+
+```
+
+**Branch == Ramificaçao**
+Pega o arquivo principal e cria uma ramificaçao para fazer ou editar sem alterar a branch main, para depois “juntar/mesclar”.
+
+```
+**Comandos:**
+ git branch                           -> mostra a branch
+ git checkout -b <nome da branch>     -> cria nova branch e muda a branch que está
+ git checkout <nome da branch>        -> muda para a branch
+ git merge <nome da branch>           -> mesclar a branch
+ git branch -D <nome da branch>       -> deleta a branch
+ git branch -m <novo nome>            -> muda o nome da branch localmente
+```
+ **O que é o GitHub?**
+ Uma rede social de projetos! KEKW. Local na NUVEM onde podemos disponibilizar o nosso projeto.
+
+ **Instalando chave SSH:**
+```
+
+-> ssh-keygen -t rsa
+-> Copie a chave pública SSH para a sua área de transferência.
+-> cat ~/.ssh/id_rsa.pub
+
+-> Clique sua foto de perfil e, em seguida, clique em Configurações.
+-> Na seção "Acesso" da barra lateral, clique em Chaves SSH e GPG.
+-> Clique em **Nova chave SSH** ou **Adicionar chave SSH**.
+-> No campo (Título), adicione uma etiqueta descritiva.
+-> No campo "Chave", cole sua chave pública.
+-> Clique em **Adicionar chave SSH**.
+-> checando acesso SSH: <ssh -T git@github.com>
+
+**Comandos GitHub:**
+ git push origin <nome da branch>                     -> manda alteraçoes para o github
+ git pull origin <nome do repositório>                -> é usado para baixar e buscar conteúdo de repositórios remotos e atualizar o repositório local
+ git remote add origin <link do repositorio github>   ->
+ git push -u origin main                              ->
+
+```
