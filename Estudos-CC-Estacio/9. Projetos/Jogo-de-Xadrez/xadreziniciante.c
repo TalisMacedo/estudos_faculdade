@@ -1,83 +1,73 @@
 #include <stdio.h>
-/*
-  Desafio nível básico:
-  ->Será feita a movimentação do Bispo, Torre e Rainha.
-    Bispo: 5 casas para diagonal direita cima.
-    Torre: 5 casas para direita.
-    Rainha: 8 casas para esquerda.
-*/
 
-// Funções de menu
-void escolhaPeca(){
+int validarOpcao(int min, int max) {
+    int escolha;
+    do {
+        printf("Opção: ");
+        scanf("%d", &escolha);
+        printf("\n");
+
+        if (escolha < min || escolha > max) {
+            printf("Opção inválida! Escolha um valor entre %d e %d.\n", min, max);
+        }
+
+    } while (escolha < min || escolha > max);
+
+    return escolha;
+}
+
+int escolhaPeca(){
   printf("Digite a peça que deseja movimentar\n");
   printf("1. -> Bispo\n");
   printf("2. -> Torre\n");
   printf("3. -> Rainha\n");
+  return validarOpcao(1, 3);
 }
-void movimentoTorre(){
-  printf("Qual direção deseja movimentar a peça?\n");
-  printf("1. -> Direita\n");
-  printf("2. -> Esquerda\n");
-  printf("3. -> Cima\n");
-  printf("4. -> Baixo\n");
-}
-void movimentoBispo(){
+//int movimentacao(){
+  //printf("Qual direção deseja movimentar a peça?\n");
+  //printf("1. -> Direita\n");
+  //printf("2. -> Esquerda\n");
+  //printf("3. -> Cima\n");
+  //printf("4. -> Baixo\n");
+  //return validarOpcao(1, 4);
+//}
+
+int direcaoBispo()
+{
   printf("Qual direção deseja movimentar a peça?\n");
   printf("1. -> Cima, Direita\n");
   printf("2. -> Cima, Esquerda\n");
   printf("3. -> Baixo, Esquerda\n");
   printf("4. -> Baixo, Direita\n");
+  return validarOpcao(1, 4);
+}
+
+int numeroCasas()
+{
+  int numero;
+  printf("\n");
+  printf(" -> Movimento do Bispo!\n");
+  printf("\n");
+  printf("Digite quantas casas deseja percorrer: ");
+  scanf("%d", &numero);
+  printf("\n");
+  return numero;
 }
 
 int main()
 {
- 
-  int nomePeca;
-  int direcao;
-  int numeroMovimentos;
 
-  // Iniciado menu de escolha de peça
-  escolhaPeca();
-  printf("Opção: ");
-  scanf("%d", &nomePeca);
+  int nomePeca = escolhaPeca();
 
-  // Laço de repetição de acordo com a peça escolhida
   switch (nomePeca)
   {
     case 1:
-
-      printf("\n");
-      printf(" -> Movimento do Bispo!\n");
-
-      printf("\n");
-      printf("Digite quantas casas deseja percorrer: ");
-      scanf("%d", &numeroMovimentos);
-
-      printf("\n");
-      // Iniciado menu de movimentação da peça Bispo
-      movimentoBispo();
-
-      // Laço de repetição caso a escolha seja diferente das opções fornecidas
-      do
-      {
-      printf("Opção: ");
-      scanf("%d", &direcao);
-      printf("\n");
-      // Laço de repetição para informar caso a opção seja inválida
-      // Observação: colocar esse laço a cima do scanf de direcao
-      // para ver se o printf sai depois do número escolhido*
-      if (direcao <1 || direcao > 4)
-        {
-          printf("Movimento inválido! Escolha entre 1 e 4.\n");
-        }
-
-      } while (direcao < 1 || direcao > 4);
+      int numeroMovimentos = numeroCasas();
+      int direcao = direcaoBispo();
 
         int i;
-      // Laço de repetição de acordo com a opção de movimentação do bispo
         if (direcao == 1)
         {
-          // Laço de repetição que imprimi de acordo com as opções disponibilizadas
           for (i = 0; i < numeroMovimentos; i++)
           {
             printf("Cima, Direita\n");
