@@ -76,10 +76,16 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 ┣━📂 6. Semestre-6
 ┣━📂 7. Semestre-7
 ┣━📂 8. Semestre-8
-┣━📂 9. Projetos
+┣━📂 9. Exercicios
+┃ ┣━📂 1. Jogo-de-Xadrez
+┃ ┃ ┗━📝 1. JogoXadrez
+┃ ┗━📂 2. Jogos-Aleatórios
+┃   ┣━📝 1. jogoaleatorio
+┃   ┗━📝 2. jokenpo
 ┣━📂 10. Anotações
+┃ ┣━📝 1. Estruturas
+┃ ┗━📝 2. Funções
 ┗━📂 11. Materiais-Extras
-  ┣━📂 1. Estruturas e Funções
-  ┗━📝 2. Git-Github
+  ┗━📝 1. Git-Github
 📄 README
 ```
