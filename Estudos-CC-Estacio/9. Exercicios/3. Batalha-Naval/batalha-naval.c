@@ -56,8 +56,9 @@ int main()
     coordenadaX -= 1;
     coordenadaY -= 1;
 
+     // Verifica se a posição escolhida contém um navio
     if (matriz[coordenadaX][coordenadaY] == navioA) {
-      matriz[coordenadaX][coordenadaY] = 3;
+      matriz[coordenadaX][coordenadaY] = 3; // Marca a posição do navio afundado
       printf("\033[0;32m -> Parabéns!! Você afundou o navioA nas COORDENADAS [%d , %d]\033[0m\n", coordenadaX + 1, coordenadaY + 1);
       printf("\n");
       break;
@@ -67,7 +68,7 @@ int main()
       printf("\n");
       break;
     } else {
-      matriz[coordenadaX][coordenadaY] = 0;
+      matriz[coordenadaX][coordenadaY] = 0; // Marca a posição como erro
       printf(" \033[0;31m-> ERROU! Tente novamente.\033[0m\n");
       printf("\n");
     }
