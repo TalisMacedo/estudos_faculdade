@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Inicia constantes LINHA e COLUNA
 #define LINHA 10
 #define COLUNA 10
 
 int main()
 {
-  int matriz[LINHA][COLUNA];
+  int matriz[LINHA][COLUNA]; // Matriz representando o tabuleiro
   int navioA, navioB;
   int tabuleiro = 1;
   int coordenadaX, coordenadaY;
@@ -21,7 +22,6 @@ int main()
       navioB = rand() % 100 + 1;
   } while (navioB == navioA); // Garante que navios não estejam na mesma posição
 
-
   // Inicializa o tabuleiro
   for(int i = 0; i < LINHA; i++) {
     for(int j = 0; j < COLUNA; j++) {
@@ -31,7 +31,6 @@ int main()
   }
 
   while (1) {
-  
     printf("\n");
     printf(" -> Esse é o campo de batalha: \n");
     printf("\n");
@@ -74,6 +73,7 @@ int main()
     }
   }
 
+  // Exibe o tabuleiro final após o jogo
    printf("\nTabuleiro final:\n");
    for(int i = 0; i < LINHA; i++) {
      for(int j = 0; j < COLUNA; j++) {
