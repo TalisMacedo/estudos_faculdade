@@ -17,12 +17,12 @@ Organizar e documentar meu aprendizado ao longo do curso, facilitando a revisão
 
 ### 📌 Semestres Anteriores
 
-- *(Adicionar disciplinas conforme avança no curso)*
+- _(Adicionar disciplinas conforme avança no curso)_
 
 ## 💻 Tecnologias e Ferramentas
 
 - **Linguagens:** C
-- **Editores:** NeoVim, Visual Studio Code
+- **Editores:** NeoVim, VisualStudio Code
 - **Outros:** Git/GitHub, Linux
 
 ## 📂 Organização dos Arquivos
