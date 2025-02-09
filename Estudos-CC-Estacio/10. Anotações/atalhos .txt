@@ -1,0 +1,24 @@
+NVIM = espaço + e -->  abri arvore de arquiivos.
+NVIM = ctrl + w -->  se movimenta entre arvore de arquivos e o que está sendo editado.
+NVIM = shift + h -->  se movimenta para a esquerda entre as abas. 
+NVIM = shift + l -->  se movimenta para a direita entre as abas.
+NVIM = space + b d -->  fecha a aba atual.
+NVIM = ? -->  na arvore de arquivos para ver comandos.
+TERMINAL = alt + f -->  executa o TERMINAL na pagina atual.
+TERMINAL = lsa -->  mostra todas as pastas.
+TERMINAL = lta -->  mostra todas as pastas e subpastas.
+TERMINAL = lzd -> abri menu de banco de dados.
+TERMINAL = btop -->  menu de sistema/cpu/disk/internet.
+TERMINAL = ollama run llama3 -->  executa a IA(inteligencia artificial)
+TERMINAL = alt + n -->  abrir varios TERMINAL
+TERMINAL = alt + setas -->  navegar entra terminais
+TERMINAL = mkdir - > criar nova pastas
+TERMINAL = mv caminho do arquivo "e paço" caminho que deseja mover o arquivo
+TERMINAL = rm caminhodo arquivo para deletar o arquivo
+TERMINAL = touch + nome - > criar novo arquivo
+TERMINAL = rmdir + caminhodo diretorio -->  exclui a pasta 
+TERMINAL = para remover um diretório com arquivos e subdiretórios, digite -->  rm -rf 
+NVIM = :%s/palavraquedesejasubstituir/palavraquequerusar/g --> substituir palavra padrao por palavra que deseja sem precisar de confirmação
+NVIM = :%s/palavraquedesejasubstituir/palavraquequerusar/gc -->  substituir palavra padrao por palavra que deseja precisando de confirmação
+
+
